@@ -1,0 +1,62 @@
+body {
+  background-color: #000;
+  text-align: center;
+}
+a,
+a:visited {
+  color: #fff;
+}
+.title {
+  padding: 10px;
+  font-size: 2em;
+  font-family: sans-serif;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #fff;
+}
+.gallery {
+  position: relative;
+}
+.gallery .sorting {
+  margin-bottom: 20px;
+  background-color: rgba(69,93,113,0.3);
+}
+.gallery .sorting h2 {
+  width: 90%;
+  max-width: 700px;
+  margin: 0px auto;
+  padding: 10px 0px;
+  border-bottom: 1px solid #455d71;
+  color: #455d71;
+  font-style: italic;
+}
+.gallery .sorting .sort-options {
+  padding: 10px 0px 10px 0px;
+  line-height: 24px;
+}
+.gallery .sorting a {
+  color: #aaa;
+  font-size: 0.85em;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 3px 20px 3px 20px;
+}
+.gallery .sorting a:hover {
+  color: #fff;
+}
+.gallery .sorting a.selected {
+  color: #eee;
+  font-weight: bold;
+}
+.photos {
+  max-width: 700px;
+  margin: 0px auto;
+}
+.photos .thumbnail_container {
+  position: relative;
+}
+.photos .thumbnail_container a.thumbnail img {
+  width: 75px;
+  height: 75px;
+  border: 1px solid #aaa;
+}
