@@ -55,6 +55,9 @@ a:visited {
 .photos .thumbnail_container {
   position: relative;
 }
+.photos .thumbnail_container a.thumbnail {
+  position: absolute;
+}
 .photos .thumbnail_container a.thumbnail img {
   width: 75px;
   height: 75px;
