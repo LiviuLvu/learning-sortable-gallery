@@ -1,4 +1,4 @@
-var thumbnailSpacing = 15;
+var thumbnailSpacing = 1;
 
 $(document).ready(function() {
    // filter images
@@ -80,7 +80,7 @@ function positionThumbnails() {
          'opacity': 1,
          'top': thumbnail_R + 'px',
          'left': thumbnail_C + 'px'
-      }, 500);
+      }, 300);
 
       var newWidth = max_C * thumbnailWidth;
       var newHeight = thumbnail_R + thumbnailHeight;
@@ -103,8 +103,8 @@ function detectFancybox() {
    // fancybox
    $('a.fancybox[rel="group"]').fancybox({
       'transitionIn': 'elastic',
-      prevEffect: 'none',
-      nextEffect: 'none',
+      'prevEffect': 'none',
+      'nextEffect': 'none',
       'titlePosition': 'over',
       'speedIn': '100',
       'overlayColor': '#000',

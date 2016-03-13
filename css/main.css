@@ -22,8 +22,7 @@ a:visited {
   background-color: rgba(69,93,113,0.3);
 }
 .gallery .sorting h2 {
-  width: 90%;
-  max-width: 700px;
+  max-width: 624px;
   margin: 0px auto;
   padding: 10px 0px;
   border-bottom: 1px solid #455d71;
@@ -54,6 +53,7 @@ a:visited {
 }
 .photos .thumbnail_container {
   position: relative;
+  margin: 10px auto;
 }
 .photos .thumbnail_container a.thumbnail {
   position: absolute;
